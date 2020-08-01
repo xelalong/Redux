@@ -1,0 +1,22 @@
+
+
+//
+const initialState = {
+  nextNoteId: 1;
+  notes: {}
+};
+//
+
+const CREATE_NOTE = 'CREAT_Note';
+const UPDATE_NOTE = 'UPDATE_Note';
+
+const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case CREATE_NOTE:
+      return // some new state with the new note
+    case UPDATE_NOTE:
+      return // some new state with note updated
+    default:
+      return state
+  }
+};
